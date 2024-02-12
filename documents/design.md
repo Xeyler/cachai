@@ -26,4 +26,6 @@ Each document is guaranteed to have the attribute, `url`, which refers to the re
 
 All variables defined in the markdown front matter are available in this context. If `documents/design.md` defined a variable called `title` in its front matter, it would be made available as `documents.design.title`.
 
+### Templates
+
 {% endblock %}
